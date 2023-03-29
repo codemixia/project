@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react-jsx",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "paths": {
+            "_actions": ["src/js/actions"],
+            "_actions/*": ["src/js/actions/*"],
+            "_components": ["src/js/components"],
+            "_components/*": ["src/js/components/*"],
+            "_constants": ["src/js/constants"],
+            "_constants/*": ["src/js/constants/*"],
+            "_img/*": ["src/resource/img/*"],
+            "_models": ["src/@types"],
+            "_models/*": ["src/@types/*"],
+            "_reducers": ["src/js/reducers"],
+            "_reducers/*": ["src/js/reducers/*"],
+            "_utils": ["src/js/utils"],
+            "_utils/*": ["src/js/utils/*"],
+            "_json": ["src/resource/json"],
+            "_json/*": ["src/resource/json/*"]
+        },
+        "pretty": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2016",
+        "typeRoots": ["node_modules/@types", "./src/@types"]
+    }
+}
