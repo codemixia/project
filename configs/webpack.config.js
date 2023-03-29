@@ -19,7 +19,7 @@ const defaultConfig = {
     output: {
         filename: `${pkg.name}.js`,
         path: resolve(__dirname, `../dist/cdn/${pkg.version}`),
-        publicPath: PHASE === 'LOCAL' ? '/' : `${config[PHASE].urls.assets}/${pkg.version}/`,
+        publicPath: PHASE === 'LOCAL' ? '/' : `${config[PHASE].assetURL}/${pkg.version}/`,
     },
     module: {
         rules: [

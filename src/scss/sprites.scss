@@ -1,0 +1,18 @@
+.sp {
+    @include sprite-icon-common;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    color: transparent;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}
+.sp_logo_line {
+    @include sprite-icon-icon($logo_line);
+}
+.sp_logo_yahoo {
+    @include sprite-icon-icon($logo_yahoo);
+}
